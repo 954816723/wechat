@@ -1,0 +1,15 @@
+{
+	"sitemapLocation": "sitemap.json",
+	"pages": [
+		"pages/classic/classic"
+	],
+	"window":{
+		"navigationBarBackgroundColor":"#FFC0CB",
+		"navigationBarTitleText":"迷人de金妖精",
+		"navigationBarTextStyle":"black",
+		"backgroundColor":"#eeeeee",
+		"backgroundTextStyle":"light",
+		"enablePullDownRefresh":false,
+		"onReachBottomDistance":50
+	}
+}
