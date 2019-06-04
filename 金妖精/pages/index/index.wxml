@@ -1,0 +1,22 @@
+<view class="container">
+  <view class='slider'>
+    <v-swiper 
+      imgUrls="{{imgUrls}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+      autoplay="{{autoplay}}"></v-swiper>
+  </view>
+  <view class="hot">
+    <view class="hot-wrapper">
+      <view class="hot-l">
+        <view class="sprite hot-title"></view>
+        <text>热门推荐</text>
+      </view>
+      <view class="hot-r">
+        <view class='sprite hot-rank'></view>
+        <text>排行榜</text>
+      </view>
+      <v-hot></v-hot>
+    </view>
+  </view>
+</view>
