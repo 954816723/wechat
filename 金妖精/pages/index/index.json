@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "v-photo":"/components/photo/index",
-    "v-swiper":"/components/swiper/index",
-    "v-hot":"/components/hot/hot"    
-  }
-}
