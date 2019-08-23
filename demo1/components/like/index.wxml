@@ -1,0 +1,4 @@
+<view class="heart-container" bind:tap="clickHeart">
+    <image class="heart" src="{{isLike ? likeSrc : unLikeSrc }}"></image>
+    <text class="heart-num">{{num}}</text>
+</view>

@@ -1,0 +1,6 @@
+<view class="container">
+    <view class="header">
+        <v-time />
+        <v-like isLike="{{classic.like_status}}" num="{{classic.fav_nums}}" bind:changeLike="changeLike" />
+    </view>
+</view>

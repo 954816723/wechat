@@ -1,0 +1,41 @@
+{
+    "pages": [
+        "pages/classics/index",
+        "pages/books/index",
+        "pages/my/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "金妖精",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "borderStyle": "black",
+        "selectedColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#c7c7c7",
+        "list": [
+            {
+                "pagePath": "pages/classics/index",
+                "text": "流行",
+                "iconPath": "./public/images/classic.png",
+                "selectedIconPath": "./public/images/classic@highlight.png"
+            },
+            {
+                "pagePath":"pages/books/index",
+                "text":"书单",
+                "iconPath":"./public/images/book.png",
+                "selectedIconPath":"./public/images/book@highlight.png"
+            },
+            {
+                "pagePath": "pages/my/index",
+                "text": "我的",
+                "iconPath": "./public/images/my.png",
+                "selectedIconPath": "./public/images/my@highlight.png"
+            }
+        ]
+    }
+}

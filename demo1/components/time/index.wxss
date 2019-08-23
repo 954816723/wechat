@@ -1,0 +1,29 @@
+.time{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.flag{
+    font-size: 32rpx;
+}
+.index{
+    font-size: 60rpx;
+    font-weight: bold;
+    line-height: 60rpx;
+}
+.time-wrapper{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    padding-left: 16rpx;
+    margin-left: 16rpx;
+}
+.time-wrapper .month{
+    font-size: 24rpx;
+    line-height: 24rpx;
+    margin-bottom:4rpx;
+}
+.time-wrapper .year{
+    font-size: 24rpx;
+    line-height: 24rpx;
+}

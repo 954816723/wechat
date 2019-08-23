@@ -1,0 +1,17 @@
+.heart-container{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: cneter;
+}
+.heart{
+  width:32rpx;
+  height:28rpx
+}
+.heart-num{
+    position: relative;
+    bottom: 10rpx;
+    font-size: 24rpx;
+    line-height: 24rpx;
+    left:6rpx;
+    color:#bbb
+}
