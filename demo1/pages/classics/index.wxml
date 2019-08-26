@@ -1,6 +1,10 @@
 <view class="container">
     <view class="header">
-        <v-time />
-        <v-like isLike="{{classic.like_status}}" num="{{classic.fav_nums}}" bind:changeLike="changeLike" />
+        <v-time index="{{classic.index}}"/>
+        <v-like isLike="{{likeStatus}}" num="{{likeCount}}" bind:changeLike="changeLike" />
     </view>
+    <v-movie hidden="{{classic.type != 100}}" img="{{classic.image}}" content="{{classic.content}}"/>
+    <v-music wx:if="{{classic.type == 200}}" img="{{classic.image}}" content="{{classic.content}}" src="{{classic.url}}"/>
+    <v-essay hidden="{{classic.type != 300}}" img="{{classic.image}}" content="{{classic.content}}"/>
+    <v-navi class="navi" bind:left="onNext" bind:right="onPrevious" title="{{classic.title}}" first="{{first}}" latest="{{latest}}" />
 </view>

@@ -1,0 +1,28 @@
+Component({
+    properties:{
+        title:String,
+        first:Boolean,
+        latest:Boolean
+    },
+    data:{
+        disLeftSrc:'images/triangle.dis@left.png',
+        leftSrc:'images/triangle@left.png',
+        disRightSrc:'images/triangle.dis@right.png',
+        rightSrc:'images/triangle@right.png'
+    },
+    lifetimes:{
+
+    },
+    methods:{
+        onLeft(){
+            if(!this.properties.latest){
+                this.triggerEvent('left',{},{})
+            }
+        },
+        onRight(){
+            if(!this.properties.first){
+                this.triggerEvent('right',{},{})
+            }
+        }
+    }
+})

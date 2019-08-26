@@ -25,10 +25,10 @@
                 "selectedIconPath": "./public/images/classic@highlight.png"
             },
             {
-                "pagePath":"pages/books/index",
-                "text":"书单",
-                "iconPath":"./public/images/book.png",
-                "selectedIconPath":"./public/images/book@highlight.png"
+                "pagePath": "pages/books/index",
+                "text": "书单",
+                "iconPath": "./public/images/book.png",
+                "selectedIconPath": "./public/images/book@highlight.png"
             },
             {
                 "pagePath": "pages/my/index",
@@ -37,5 +37,6 @@
                 "selectedIconPath": "./public/images/my@highlight.png"
             }
         ]
-    }
+    },
+    "sitemapLocation": "sitemap.json"
 }

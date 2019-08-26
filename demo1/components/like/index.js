@@ -32,8 +32,9 @@ Component({
           this.setData({
               isLike: !status,
               num: status ? --num : ++num
-          })
-          this.triggerEvent('changeLike', this.properties.isLike)
+		  })
+		  let behavior = this.properties.isLike ? 'like' : 'cancel'
+          this.triggerEvent('changeLike', {behavior})
       }
   }
 })
