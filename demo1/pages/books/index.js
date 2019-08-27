@@ -1,18 +1,36 @@
-// pages/books/index.js
+import {BookModel} from '../../models/book'
+const bookModel = new BookModel()
+
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        books:[],
+        searching:false
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
-    onLoad: function (options) {
+    onLoad: async function (options) {
+        let result = await bookModel.getHotList()
+        this.setData({
+            books:result
+        })
+    },
 
+    onSearch(){
+        this.setData({
+            searching:true
+        })
+    },
+
+    onCancel(){
+        this.setData({
+            searching:false
+        })
     },
 
     /**
